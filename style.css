@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    font-size: 90%;
+    font-family: arial, sans-serif;
+    color: #202124;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Propiedades o estilos generales a los botones*/
+button {
+    font-size: 100%;
+    border: none;
+    background-color: #dadce0;
+}
+
+/*Estilos a la zona header*/
+header {
+    width: 100%;
+    height: 15%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+/*Estilos a la clase 1 dentro de header*/
+.uno {
+    width: 80%;
+    height: 100%;
+}
+
+/*Estilos a la clase botones*/
+#botones {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Estilos generales a las ligas*/
+a {
+    color: black;
+    outline: none;
+    text-decoration: none;
+
+}
+
+/*Estilos a los botones principales de header*/
+#correo {
+    border: none;
+    background-color: white;
+}
+
+#imagen {
+    border: none;
+    background-color: white;
+}
+
+#puntos {
+    width: 90%;
+    height: 30%;
+    border-radius: 100%;
+    background-color: white;
+}
+
+#Sesion {
+    border: none;
+    background-color: white;
+}
+
+/*Estilos a las imagenes usadas en la zona header*/
+#icono {
+    border: none;
+    background-color: white;
+}
+
+#perfil {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+/*Estilos a la zona main*/
+main {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Estilos a la clase del logo de Google*/
+.logo {
+    width: 100%;
+    height: 30%;
+    padding-top: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: star;
+
+}
+
+/*Estilos al logo Google*/
+#logo {
+    width: 20%;
+    height: 70%;
+
+}
+
+/*Estilos al buscador de Google*/
+.buscador {
+    padding: 15px;
+    width: 45%;
+    height: 50px;
+    background-color:transparent;
+    border-radius: 20px;
+    border: 2px solid beige;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Estilos a las clases que estan dentro del buscador de Google*/
+#lupita {
+    width: 10%;
+}
+
+#cajadetexto {
+    width: 80%;
+}
+
+#iconobuscador {
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Estilos a las imagenes usadas*/
+#lupa {
+    width: 35%;
+    height: 15%;
+}
+
+#micro {
+    width: 25%;
+    height: 15%;
+}
+
+#buscaimagen {
+    width: 35%;
+    height: 15%;
+}
+
+/*Estilos a la caja de entrada de texto*/
+#texto {
+    width: 90%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+/*Estilos a la clase de los botones inferiores*/
+.Botonesinferiores {
+    width: 100%;
+    height: 25%;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+/*Estilos a la clase del boton de Google*/
+.botonGoogle {
+    padding-right: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+/*Estilos a la clase de voy a tener suerte*/
+.suerte {
+    width: 50%;
+    padding-left: 20px;
+}
+
+/*Estilos de los dos botones utulizados*/
+#Buscarcongoogle {
+    width: 25%;
+    height: 20%;
+    border: none;
+    background-color: rgb(247, 247, 242);
+}
+
+#suerte {
+    width: 25%;
+    height: 20%;
+    background-color: rgb(247, 247, 242);
+    border: none;
+}
+
+/*Estilos del pies de página*/
+footer {
+    background-color: blue;
+    width: 100%;
+    height: 10%;
+
+}
+
+/*Estilos de las dos clases utilizadas*/
+.pais {
+    width: 100%;
+    height: 50%;
+    background-color: rgb(247, 247, 242);
+    padding-left: 38px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #dadce0;
+}
+
+.linksfinales {
+    width: 100%;
+    height: 50%;
+    background-color: rgb(247, 247, 242);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    border: solid 1px #dadce0;
+}
+
+/*Estilos de las clases que dividen a la clase de "linksfinales"*/
+.parte1 {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.parte2 {
+    width: 40%;
+    height: 100%;
+    display: flex;
+}
+
+.parte3 {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+
